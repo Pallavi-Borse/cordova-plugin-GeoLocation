@@ -1,0 +1,17 @@
+{
+  "name": "deven.geolocation",
+  "version": "1.0.1",
+  "description": "",
+  "cordova": {
+    "id": "deven.geolocation",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}
