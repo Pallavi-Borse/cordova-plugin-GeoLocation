@@ -5,7 +5,7 @@
         };
         setTimeout( function(){
             debugger;
-            Cordova.exec(success, null, "GeoLocation", "getLoc");
+            Cordova.exec(success, null, "GeoLocation", "getLocation");
            
         }, 10000); 
 
