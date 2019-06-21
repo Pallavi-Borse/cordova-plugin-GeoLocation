@@ -13,7 +13,7 @@ public class GeoLocation extends CordovaPlugin {
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		GPSTracker gps = new GPSTracker(GeoLocation.this);
-        if (action.equals("getLoc")) {
+        if (action.equals("getLocation")) {
            if(gps.canGetLocation()){
 
 		           double latitude = gps.getLatitude();
