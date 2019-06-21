@@ -1,4 +1,4 @@
-package deven.geolocation.GeoLocation;
+package deven.geolocation;
 import android.app.AlertDialog;
 import android.app.Service;
 import android.content.Context;
