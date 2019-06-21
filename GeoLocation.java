@@ -1,9 +1,8 @@
-package deven.geolocation.GeoLocation;
+package deven.geolocation;
 
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
-import deven.geolocation.GeoLocation.GPSTracker;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
